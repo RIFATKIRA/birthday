@@ -11,6 +11,13 @@ body{
     background-image: url('photos/birthday-background-copy-space_1036998-319113.jpg');
     background-size: cover;
 }
+
+@media only screen and (max-width: 414px){
+    *{
+        visibility: visible;
+    }    
+    
+}
 .container{
     perspective: 1000px;
 }
